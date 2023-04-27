@@ -1,12 +1,12 @@
-# clue/reactphp-block
+# clue/react-php-block
 
-[![CI status](https://github.com/clue/reactphp-block/workflows/CI/badge.svg)](https://github.com/clue/reactphp-block/actions)
+[![CI status](https://github.com/clue/react-php-block/workflows/CI/badge.svg)](https://github.com/clue/react-php-block/actions)
 [![installs on Packagist](https://img.shields.io/packagist/dt/clue/block-react?color=blue&label=installs%20on%20Packagist)](https://packagist.org/packages/clue/block-react)
 
 Lightweight library that eases integrating async components built for
-[ReactPHP](https://reactphp.org/) in a traditional, blocking environment.
+[ReactPHP](https://react-php.org/) in a traditional, blocking environment.
 
-[ReactPHP](https://reactphp.org/) provides you a great set of base components and
+[ReactPHP](https://react-php.org/) provides you a great set of base components and
 a huge ecosystem of third party libraries in order to perform async operations.
 The event-driven paradigm and asynchronous processing of any number of streams
 in real time enables you to build a whole new set of application on top of it.
@@ -47,7 +47,7 @@ Let's take these projects to the next level together! 🚀
 ### Quickstart example
 
 The following example code demonstrates how this library can be used along with
-an [async HTTP client](https://github.com/reactphp/http#client-usage) to process two
+an [async HTTP client](https://github.com/react-php/http#client-usage) to process two
 non-blocking HTTP requests and block until the first (faster) one resolves.
 
 ```php
@@ -116,7 +116,7 @@ trigger at the earliest possible time in the future.
 
 This function takes an optional `LoopInterface|null $loop` parameter that can be used to
 pass the event loop instance to use. You can use a `null` value here in order to
-use the [default loop](https://github.com/reactphp/event-loop#loop). This value
+use the [default loop](https://github.com/react-php/event-loop#loop). This value
 SHOULD NOT be given unless you're sure you want to explicitly use a given event
 loop instance.
 
@@ -162,7 +162,7 @@ See also the [examples](examples/).
 
 This function takes an optional `LoopInterface|null $loop` parameter that can be used to
 pass the event loop instance to use. You can use a `null` value here in order to
-use the [default loop](https://github.com/reactphp/event-loop#loop). This value
+use the [default loop](https://github.com/react-php/event-loop#loop). This value
 SHOULD NOT be given unless you're sure you want to explicitly use a given event
 loop instance.
 
@@ -170,7 +170,7 @@ If no `$timeout` argument is given and the promise stays pending, then this
 will potentially wait/block forever until the promise is settled. To avoid
 this, API authors creating promises are expected to provide means to
 configure a timeout for the promise instead. For more details, see also the
-[`timeout()` function](https://github.com/reactphp/promise-timer#timeout).
+[`timeout()` function](https://github.com/react-php/promise-timer#timeout).
 
 If the deprecated `$timeout` argument is given and the promise is still pending once the
 timeout triggers, this will `cancel()` the promise and throw a `TimeoutException`.
@@ -214,7 +214,7 @@ Likewise, this will throw if an empty array of `$promises` is passed.
 
 This function takes an optional `LoopInterface|null $loop` parameter that can be used to
 pass the event loop instance to use. You can use a `null` value here in order to
-use the [default loop](https://github.com/reactphp/event-loop#loop). This value
+use the [default loop](https://github.com/react-php/event-loop#loop). This value
 SHOULD NOT be given unless you're sure you want to explicitly use a given event
 loop instance.
 
@@ -222,7 +222,7 @@ If no `$timeout` argument is given and ALL promises stay pending, then this
 will potentially wait/block forever until the promise is fulfilled. To avoid
 this, API authors creating promises are expected to provide means to
 configure a timeout for the promise instead. For more details, see also the
-[`timeout()` function](https://github.com/reactphp/promise-timer#timeout).
+[`timeout()` function](https://github.com/react-php/promise-timer#timeout).
 
 If the deprecated `$timeout` argument is given and ANY promises are still pending once
 the timeout triggers, this will `cancel()` all pending promises and throw a
@@ -270,7 +270,7 @@ then this function will throw an `UnexpectedValueException` instead.
 
 This function takes an optional `LoopInterface|null $loop` parameter that can be used to
 pass the event loop instance to use. You can use a `null` value here in order to
-use the [default loop](https://github.com/reactphp/event-loop#loop). This value
+use the [default loop](https://github.com/react-php/event-loop#loop). This value
 SHOULD NOT be given unless you're sure you want to explicitly use a given event
 loop instance.
 
@@ -278,7 +278,7 @@ If no `$timeout` argument is given and ANY promises stay pending, then this
 will potentially wait/block forever until the promise is fulfilled. To avoid
 this, API authors creating promises are expected to provide means to
 configure a timeout for the promise instead. For more details, see also the
-[`timeout()` function](https://github.com/reactphp/promise-timer#timeout).
+[`timeout()` function](https://github.com/react-php/promise-timer#timeout).
 
 If the deprecated `$timeout` argument is given and ANY promises are still pending once
 the timeout triggers, this will `cancel()` all pending promises and throw a

@@ -31,7 +31,7 @@ use UnderflowException;
  *
  * This function takes an optional `LoopInterface|null $loop` parameter that can be used to
  * pass the event loop instance to use. You can use a `null` value here in order to
- * use the [default loop](https://github.com/reactphp/event-loop#loop). This value
+ * use the [default loop](https://github.com/react-php/event-loop#loop). This value
  * SHOULD NOT be given unless you're sure you want to explicitly use a given event
  * loop instance.
  *
@@ -84,7 +84,7 @@ function sleep($time, LoopInterface $loop = null)
  *
  * This function takes an optional `LoopInterface|null $loop` parameter that can be used to
  * pass the event loop instance to use. You can use a `null` value here in order to
- * use the [default loop](https://github.com/reactphp/event-loop#loop). This value
+ * use the [default loop](https://github.com/react-php/event-loop#loop). This value
  * SHOULD NOT be given unless you're sure you want to explicitly use a given event
  * loop instance.
  *
@@ -92,7 +92,7 @@ function sleep($time, LoopInterface $loop = null)
  * will potentially wait/block forever until the promise is settled. To avoid
  * this, API authors creating promises are expected to provide means to
  * configure a timeout for the promise instead. For more details, see also the
- * [`timeout()` function](https://github.com/reactphp/promise-timer#timeout).
+ * [`timeout()` function](https://github.com/react-php/promise-timer#timeout).
  *
  * If the deprecated `$timeout` argument is given and the promise is still pending once the
  * timeout triggers, this will `cancel()` the promise and throw a `TimeoutException`.
@@ -194,7 +194,7 @@ function await(PromiseInterface $promise, LoopInterface $loop = null, $timeout =
  *
  * This function takes an optional `LoopInterface|null $loop` parameter that can be used to
  * pass the event loop instance to use. You can use a `null` value here in order to
- * use the [default loop](https://github.com/reactphp/event-loop#loop). This value
+ * use the [default loop](https://github.com/react-php/event-loop#loop). This value
  * SHOULD NOT be given unless you're sure you want to explicitly use a given event
  * loop instance.
  *
@@ -202,7 +202,7 @@ function await(PromiseInterface $promise, LoopInterface $loop = null, $timeout =
  * will potentially wait/block forever until the promise is fulfilled. To avoid
  * this, API authors creating promises are expected to provide means to
  * configure a timeout for the promise instead. For more details, see also the
- * [`timeout()` function](https://github.com/reactphp/promise-timer#timeout).
+ * [`timeout()` function](https://github.com/react-php/promise-timer#timeout).
  *
  * If the deprecated `$timeout` argument is given and ANY promises are still pending once
  * the timeout triggers, this will `cancel()` all pending promises and throw a
@@ -292,7 +292,7 @@ function awaitAny(array $promises, LoopInterface $loop = null, $timeout = null)
  *
  * This function takes an optional `LoopInterface|null $loop` parameter that can be used to
  * pass the event loop instance to use. You can use a `null` value here in order to
- * use the [default loop](https://github.com/reactphp/event-loop#loop). This value
+ * use the [default loop](https://github.com/react-php/event-loop#loop). This value
  * SHOULD NOT be given unless you're sure you want to explicitly use a given event
  * loop instance.
  *
@@ -300,7 +300,7 @@ function awaitAny(array $promises, LoopInterface $loop = null, $timeout = null)
  * will potentially wait/block forever until the promise is fulfilled. To avoid
  * this, API authors creating promises are expected to provide means to
  * configure a timeout for the promise instead. For more details, see also the
- * [`timeout()` function](https://github.com/reactphp/promise-timer#timeout).
+ * [`timeout()` function](https://github.com/react-php/promise-timer#timeout).
  *
  * If the deprecated `$timeout` argument is given and ANY promises are still pending once
  * the timeout triggers, this will `cancel()` all pending promises and throw a

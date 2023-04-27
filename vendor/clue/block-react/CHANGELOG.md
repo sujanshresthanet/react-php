@@ -2,7 +2,7 @@
 
 ## 1.5.0 (2021-10-20)
 
-*   Feature: Simplify usage by supporting new [default loop](https://github.com/reactphp/event-loop#loop).
+*   Feature: Simplify usage by supporting new [default loop](https://github.com/react-php/event-loop#loop).
     (#60 by @clue)
 
     ```php

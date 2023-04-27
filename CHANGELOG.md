@@ -2,16 +2,16 @@
 
 ## 1.2.0 (2021-07-11)
 
-A major new feature release, see [**release announcement**](https://clue.engineering/2021/announcing-reactphp-default-loop).
+A major new feature release, see [**release announcement**](https://clue.engineering/2021/announcing-react-php-default-loop).
 
-*   Feature: Simplify usage by supporting new [default loop](https://reactphp.org/event-loop/#loop).
+*   Feature: Simplify usage by supporting new [default loop](https://react-php.org/event-loop/#loop).
     (#445 by @clue)
 
 ## 1.1.0 (2020-07-11)
 
-A major new feature release, see [**release announcement**](https://clue.engineering/2020/announcing-reactphp-http).
+A major new feature release, see [**release announcement**](https://clue.engineering/2020/announcing-react-php-http).
 
-*   Feature: Add event-driven, streaming HTTP client and server implementation via [`react/http`](https://reactphp.org/http/).
+*   Feature: Add event-driven, streaming HTTP client and server implementation via [`react/http`](https://react-php.org/http/).
     (#440 by @clue)
 
 *   Update documentation to link to project meta repo and link to our official Gitter chat room.
@@ -27,7 +27,7 @@ A major new feature release, see [**release announcement**](https://clue.enginee
     We plan to support all long-term support (LTS) releases for at least 24 months,
     so you have a rock-solid foundation to build on top of.
 
->   ReactPHP consists of a set of individual [components](https://reactphp.org/#core-components).
+>   ReactPHP consists of a set of individual [components](https://react-php.org/#core-components).
     This means that instead of installing something like a "ReactPHP framework",
     you actually can pick only the components that you need. As an alternative,
     we also provide this meta package that will install all stable components at
@@ -35,18 +35,18 @@ A major new feature release, see [**release announcement**](https://clue.enginee
     of stable components may change over time.
     In other words, this meta package does not contain any source code and
     instead only consists of links to all our main components, see also our
-    [list of components](https://reactphp.org/#core-components) for more details.
+    [list of components](https://react-php.org/#core-components) for more details.
 
 ## 0.4.2 (2014-12-11)
 
 **Real Split**: The one where we tag the change where the master repo pulls in all the split components.
 
 New component releases are now tagged and released in their respective
-component repository. See also [core components](https://reactphp.org/#core-components)
+component repository. See also [core components](https://react-php.org/#core-components)
 to learn more about this.
 
 This project continues to be under active development and is anything but dead.
-You can check out the combined [changelog for all ReactPHP components](https://reactphp.org/changelog.html).
+You can check out the combined [changelog for all ReactPHP components](https://react-php.org/changelog.html).
 
 ## 0.4.1 (2014-04-13)
 

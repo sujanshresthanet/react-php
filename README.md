@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://reactphp.org"><img src="https://rawgit.com/reactphp/branding/master/reactphp-logo.svg" alt="ReactPHP Logo" width="160"></a>
+    <a href="https://react-php.org"><img src="https://rawgit.com/react-php/branding/master/react-php-logo.svg" alt="ReactPHP Logo" width="160"></a>
 </div>
     
 <br>
@@ -11,7 +11,7 @@
 <br>
 
 <div align="center">
-    <a href="https://github.com/reactphp/reactphp/actions"><img src="https://github.com/reactphp/reactphp/actions/workflows/ci.yml/badge.svg" alt="Build Status"></a>
+    <a href="https://github.com/react-php/react-php/actions"><img src="https://github.com/react-php/react-php/actions/workflows/ci.yml/badge.svg" alt="Build Status"></a>
 </div>
 
 <br>
@@ -73,58 +73,58 @@ Node.js (V8).
 
 * **EventLoop**
   ReactPHP's core reactor event-loop.
-  [Read the documentation](https://github.com/reactphp/event-loop)
+  [Read the documentation](https://github.com/react-php/event-loop)
 
 * **Stream**
   Event-driven readable and writable streams for non-blocking I/O in ReactPHP.
-  [Read the documentation](https://github.com/reactphp/stream)
+  [Read the documentation](https://github.com/react-php/stream)
 
 * **Promise**
   Promises/A implementation for PHP.
-  [Read the documentation](https://github.com/reactphp/promise)
+  [Read the documentation](https://github.com/react-php/promise)
 
 
 ## Network Components
 
 * **Socket**
   Async, streaming plaintext TCP/IP and secure TLS socket server and client connections for ReactPHP.
-  [Read the documentation](https://github.com/reactphp/socket)
+  [Read the documentation](https://github.com/react-php/socket)
 
 * **Datagram**
   Event-driven UDP client and server sockets for ReactPHP.
-  [Read the documentation](https://github.com/reactphp/datagram)
+  [Read the documentation](https://github.com/react-php/datagram)
 
 ## Protocol Components
 
 * **HTTP**
   Event-driven, streaming plaintext HTTP and secure HTTPS server for ReactPHP.
-  [Read the documentation](https://github.com/reactphp/http)
+  [Read the documentation](https://github.com/react-php/http)
 
 * **HTTPClient**
   Event-driven, streaming HTTP client for ReactPHP.
-  [Read the documentation](https://github.com/reactphp/http-client)
+  [Read the documentation](https://github.com/react-php/http-client)
 
 * **DNS**
   Async DNS resolver for ReactPHP.
-  [Read the documentation](https://github.com/reactphp/dns)
+  [Read the documentation](https://github.com/react-php/dns)
 
 ## Utility Components
 
 * **Cache**
   Async caching for ReactPHP.
-  [Read the documentation](https://github.com/reactphp/cache)
+  [Read the documentation](https://github.com/react-php/cache)
 
 * **ChildProcess**
   Library for executing child processes.
-  [Read the documentation](https://github.com/reactphp/child-process)
+  [Read the documentation](https://github.com/react-php/child-process)
 
 * **PromiseTimer**
   Trivial timeout implementation for ReactPHP's Promise lib.
-  [Read the documentation](https://github.com/reactphp/promise-timer)
+  [Read the documentation](https://github.com/react-php/promise-timer)
 
 * **PromiseStream**
   The missing link between Promise-land and Stream-land, built on top of ReactPHP.
-  [Read the documentation](https://github.com/reactphp/promise-stream)
+  [Read the documentation](https://github.com/react-php/promise-stream)
 
 
 ## Built with ReactPHP
@@ -156,18 +156,18 @@ Node.js (V8).
   A Redis server implementation in pure PHP
   [clue/redis-server](https://github.com/clue/php-redis-server)
 
-[And many more on our wiki page »](https://github.com/reactphp/react/wiki/Users)
+[And many more on our wiki page »](https://github.com/react-php/react/wiki/Users)
 
 ## Articles
 
 * **Sergey Zhuk**
   A series of articles covering ReactPHP: from the basics to the real
   application examples.
-  [sergeyzhuk.me](http://sergeyzhuk.me/reactphp-series)
+  [sergeyzhuk.me](http://sergeyzhuk.me/react-php-series)
 
 * **Cees-Jan Kiewiet**
   Blog series about several ReactPHP components and how they work.
-  [blog.wyrihaximus.net](http://blog.wyrihaximus.net/categories/reactphp-series/)
+  [blog.wyrihaximus.net](http://blog.wyrihaximus.net/categories/react-php-series/)
 
 * **Loïc Faugeron**
   Super Speed Symfony - ReactPHP.
@@ -179,7 +179,7 @@ Node.js (V8).
   
 * **Marc Morera**
   When ReactPHP meet Symfony
-  [medium.com/@apisearch](https://medium.com/@apisearch/symfony-and-reactphp-series-82082167f6fb)
+  [medium.com/@apisearch](https://medium.com/@apisearch/symfony-and-react-php-series-82082167f6fb)
 
 ## Talks
 
@@ -219,10 +219,10 @@ installed like this:
 composer require react/react:^1.2
 ```
 
-For more details, check out [ReactPHP's homepage](https://reactphp.org) for
+For more details, check out [ReactPHP's homepage](https://react-php.org) for
 quickstart examples and usage details.
 
-See also the combined [changelog for all ReactPHP components](https://reactphp.org/changelog.html)
+See also the combined [changelog for all ReactPHP components](https://react-php.org/changelog.html)
 for details about version upgrades.
 
 ## Support
@@ -236,15 +236,15 @@ fair chance that it may be relevant to more people. Please do not hesitate to
 file your question as an issue in the relevant component so others can also
 participate.
 
-You can also check out our official [Gitter chat room](https://gitter.im/reactphp/reactphp).
+You can also check out our official [Gitter chat room](https://gitter.im/react-php/react-php).
 Most of the people involved in this project are available in this chat room, so many
 questions get answered in a few minutes to some hours. We also use this chat room
 to announce all new releases and ongoing development efforts, so consider
 staying in this chat room for a little longer.
 
-Also follow [@reactphp](https://twitter.com/reactphp) on Twitter for updates.
+Also follow [@react-php](https://twitter.com/react-php) on Twitter for updates.
 We use this mostly for noteworthy, bigger updates and to keep the community
-updated about ongoing development efforts. You can always use the `#reactphp`
+updated about ongoing development efforts. You can always use the `#react-php`
 hashtag if you have anything to share!
 
 We're a very open project and we prefer public communication whenever possible,
@@ -252,7 +252,7 @@ so that more people can participate and help getting the best solutions availabl
 At the same time, we realize that some things are better addressed in private.
 Whether you just want to say *thank you*, want to report a security issue or
 want to help sponsor a certain feature development, you can reach out to the
-core team in private by sending an email to `support@reactphp.org`. Please keep in
+core team in private by sending an email to `support@react-php.org`. Please keep in
 mind that we're a small team of volunteers and do our best to support anybody
 reaching out.
 

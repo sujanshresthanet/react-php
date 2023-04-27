@@ -2,10 +2,10 @@
     "name": "react/react",
     "description": "ReactPHP: Event-driven, non-blocking I/O with PHP.",
     "keywords": ["reactor", "asynchronous", "ReactPHP"],
-    "homepage": "https://reactphp.org/",
+    "homepage": "https://react-php.org/",
     "license": "MIT",
     "support": {
-        "chat": "https://gitter.im/reactphp/reactphp"
+        "chat": "https://gitter.im/react-php/react-php"
     },
     "require": {
         "php": ">=5.3.8",
